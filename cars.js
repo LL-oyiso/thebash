@@ -2,7 +2,7 @@ const { Socket } = require('dgram');
 const express = require('express');
 //creation of express app
 const app = express();
-const http = require('http');
+const http = require('htt');
 const path = require('path');
 const server = http.createServer(app);
 const {Server} = require("socket.io");
